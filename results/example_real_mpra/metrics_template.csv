@@ -1,0 +1,4 @@
+model,r2,rmse,mae
+mean_baseline,0.0,run_workflow_to_compute,run_workflow_to_compute
+elastic_net,run_workflow_to_compute,run_workflow_to_compute,run_workflow_to_compute
+random_forest,run_workflow_to_compute,run_workflow_to_compute,run_workflow_to_compute
