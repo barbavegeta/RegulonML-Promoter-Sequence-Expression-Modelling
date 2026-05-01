@@ -2,10 +2,6 @@
 
 **RegulonML** is a reproducible bioinformatics and machine-learning workflow for modelling regulatory activity from MPRA data.
 
-This version upgrades the original synthetic promoter-expression demo into a **real-data MPRA workflow** using the public Kircher et al. saturation-mutagenesis MPRA dataset. The project now focuses on predicting measured MPRA variant effects from regulatory-variant features and experimental count metadata.
-
-> This is no longer just a toy promoter-expression project. It is now a real MPRA variant-effect modelling framework.
-
 ---
 
 ## What changed in this version
@@ -30,8 +26,6 @@ Massively parallel reporter assays, or MPRAs, measure the regulatory activity of
 This repository uses the promoter subset to ask:
 
 > Can measured MPRA regulatory effects be modelled from variant-level features such as reference allele, alternate allele, position, DNA/RNA counts, barcode support, and regulatory element identity?
-
-This is not the same as full promoter sequence design. It is a more realistic intermediate project: **regulatory variant-effect prediction from real MPRA data**.
 
 ---
 
@@ -210,82 +204,3 @@ Training exports:
 | `feature_importance.csv` | Random Forest feature importance |
 | `permutation_importance.csv` | Model-agnostic permutation importance |
 | `run_summary.json` | Run metadata |
-
----
-
-## Why this is better than the synthetic version
-
-The old synthetic dataset proved that the code could run.
-
-This version proves something more useful:
-
-- you can find a real public regulatory-genomics dataset
-- document its provenance
-- prepare raw MPRA outputs into a modelling table
-- account for leakage
-- train and benchmark interpretable models
-- avoid overstating the biological meaning
-
-That is much stronger for a bioinformatics application.
-
----
-
-## Still not a full promoter-design model
-
-Be careful. This is **not** yet a full promoter sequence-expression model.
-
-It does not yet use:
-
-- full promoter sequences as model input
-- MPRA construct-level sequence activity labels
-- one-hot encoded whole sequences
-- CNNs trained on full regulatory sequences
-- transformer embeddings from DNA language models
-- external validation across independent MPRA libraries
-
-Those would be the next stage.
-
-The honest project claim is:
-
-> Real MPRA regulatory variant-effect modelling using public saturation-mutagenesis data.
-
-Not:
-
-> I built a promoter-design AI model.
-
----
-
-## CV bullet
-
-Built **RegulonML**, a real-data MPRA variant-effect modelling workflow using public saturation-mutagenesis reporter-assay data, including raw-data download, promoter filtering, MPRA feature engineering, leakage-aware element-level splitting, Elastic Net and Random Forest regression, permutation importance, and reproducible documentation of data provenance and limitations.
-
----
-
-## GitHub description
-
-Real-data MPRA regulatory variant-effect modelling workflow using public saturation-mutagenesis reporter-assay data, with promoter filtering, feature engineering, leakage-aware validation, Random Forest/Elastic Net benchmarking, and interpretable outputs.
-
----
-
-## Suggested GitHub topics
-
-```text
-bioinformatics
-mpra
-regulatory-genomics
-promoter
-variant-effect-prediction
-machine-learning
-synthetic-biology
-genomics
-python
-random-forest
-elastic-net
-```
-
----
-
-## Author
-
-Salvatore Barbagallo  
-Bioinformatics Analyst | NGS, Computational Genomics & Data Pipelines
