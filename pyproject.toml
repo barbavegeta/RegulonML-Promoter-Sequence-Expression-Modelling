@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "regulonml"
+version = "0.2.0"
+description = "Predicting regulatory variant effects in unseen promoters and enhancers from sequence (saturation-mutagenesis MPRA)"
+requires-python = ">=3.10"
+dependencies = ["numpy", "pandas>=2", "scipy", "scikit-learn>=1.3", "pyarrow", "matplotlib", "biopython", "pyjaspar>=3"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

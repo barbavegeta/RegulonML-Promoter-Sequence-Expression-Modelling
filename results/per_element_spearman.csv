@@ -1,0 +1,117 @@
+Element,locus,n,spearman,model
+BCL11A,BCL11A,1985,-0.008652369012599859,Ridge | context only
+F9,F9,952,0.029428635350651693,Ridge | context only
+FOXE1,FOXE1,1923,-0.01747759366740505,Ridge | context only
+GP1BA,GP1BA,1239,0.08425439085169986,Ridge | context only
+HBB,HBB,596,0.24213589519987283,Ridge | context only
+HBG1,HBG1,888,0.07291691337266532,Ridge | context only
+HNF4A,HNF4A,931,0.0045667906837166695,Ridge | context only
+IRF4,IRF4,1458,0.0007677185341550245,Ridge | context only
+IRF6,IRF6,1739,-0.023130894771077912,Ridge | context only
+LDLR,LDLR,1004,-0.10958636251559287,Ridge | context only
+LDLR.2,LDLR,1024,-0.07944298288749016,Ridge | context only
+MSMB,MSMB,1912,0.07509612859643433,Ridge | context only
+MYCrs11986220,MYCrs11986220,1554,-0.014120041012498925,Ridge | context only
+MYCrs6983267,MYCrs6983267,1809,-0.009835823490153658,Ridge | context only
+PKLR-24h,PKLR,1503,0.04841346431425332,Ridge | context only
+PKLR-48h,PKLR,1533,0.04987823381403328,Ridge | context only
+RET,RET,1911,-0.04412445754862895,Ridge | context only
+SORT1,SORT1,1806,0.030324826337148735,Ridge | context only
+SORT1-flip,SORT1,1884,-0.007699305267884176,Ridge | context only
+SORT1.2,SORT1,1918,0.0374667737062361,Ridge | context only
+TCF7L2,TCF7L2,1801,-0.009301804008666207,Ridge | context only
+TERT-GAa,TERT,869,-0.14969806808558728,Ridge | context only
+TERT-GBM,TERT,878,-0.12132022835441049,Ridge | context only
+TERT-GSc,TERT,866,-0.13768555443580655,Ridge | context only
+TERT-HEK,TERT,865,-0.053596734408118886,Ridge | context only
+UC88,UC88,1840,0.02804272372224364,Ridge | context only
+ZFAND3,ZFAND3,1893,0.024893733898432913,Ridge | context only
+ZRSh-13,ZRS,1571,0.09131100828123587,Ridge | context only
+ZRSh-13h2,ZRS,1572,0.0942332397692408,Ridge | context only
+BCL11A,BCL11A,1985,0.04550264390344012,Gradient boosting | context only
+F9,F9,952,0.06596622382869952,Gradient boosting | context only
+FOXE1,FOXE1,1923,0.029878549249459367,Gradient boosting | context only
+GP1BA,GP1BA,1239,0.08238710459748111,Gradient boosting | context only
+HBB,HBB,596,0.2158573590982378,Gradient boosting | context only
+HBG1,HBG1,888,0.23629394013063643,Gradient boosting | context only
+HNF4A,HNF4A,931,0.014749265124996786,Gradient boosting | context only
+IRF4,IRF4,1458,0.027106417679985485,Gradient boosting | context only
+IRF6,IRF6,1739,-0.0005060133122941387,Gradient boosting | context only
+LDLR,LDLR,1004,0.052466042438777484,Gradient boosting | context only
+LDLR.2,LDLR,1024,0.05449477192260925,Gradient boosting | context only
+MSMB,MSMB,1912,0.07427276884937356,Gradient boosting | context only
+MYCrs11986220,MYCrs11986220,1554,-0.051201386605480376,Gradient boosting | context only
+MYCrs6983267,MYCrs6983267,1809,-0.027241648840958012,Gradient boosting | context only
+PKLR-24h,PKLR,1503,0.014654614369264168,Gradient boosting | context only
+PKLR-48h,PKLR,1533,0.02677281334894995,Gradient boosting | context only
+RET,RET,1911,-0.0048862484345345795,Gradient boosting | context only
+SORT1,SORT1,1806,0.05644678929386656,Gradient boosting | context only
+SORT1-flip,SORT1,1884,0.07858531142037649,Gradient boosting | context only
+SORT1.2,SORT1,1918,0.06684795991505539,Gradient boosting | context only
+TCF7L2,TCF7L2,1801,0.09096428937514262,Gradient boosting | context only
+TERT-GAa,TERT,869,0.14638241861444032,Gradient boosting | context only
+TERT-GBM,TERT,878,0.16582119650967836,Gradient boosting | context only
+TERT-GSc,TERT,866,0.1202185795883553,Gradient boosting | context only
+TERT-HEK,TERT,865,0.1548984399181541,Gradient boosting | context only
+UC88,UC88,1840,0.033348592433953765,Gradient boosting | context only
+ZFAND3,ZFAND3,1893,0.18281646601947735,Gradient boosting | context only
+ZRSh-13,ZRS,1571,0.15176373614521008,Gradient boosting | context only
+ZRSh-13h2,ZRS,1572,0.12119453323732306,Gradient boosting | context only
+BCL11A,BCL11A,1985,0.03620054978168051,Ridge | context + motifs
+F9,F9,952,0.2627250489074846,Ridge | context + motifs
+FOXE1,FOXE1,1923,-0.01247968415797689,Ridge | context + motifs
+GP1BA,GP1BA,1239,0.16211729455068902,Ridge | context + motifs
+HBB,HBB,596,0.33369220474942535,Ridge | context + motifs
+HBG1,HBG1,888,0.2287712908490723,Ridge | context + motifs
+HNF4A,HNF4A,931,0.131857535890913,Ridge | context + motifs
+IRF4,IRF4,1458,0.15391508837062268,Ridge | context + motifs
+IRF6,IRF6,1739,0.12395000663897456,Ridge | context + motifs
+LDLR,LDLR,1004,0.1541775932830633,Ridge | context + motifs
+LDLR.2,LDLR,1024,0.16750704080537873,Ridge | context + motifs
+MSMB,MSMB,1912,0.19249290498762056,Ridge | context + motifs
+MYCrs11986220,MYCrs11986220,1554,0.0323972600872616,Ridge | context + motifs
+MYCrs6983267,MYCrs6983267,1809,0.1428562726710975,Ridge | context + motifs
+PKLR-24h,PKLR,1503,0.1720818604454688,Ridge | context + motifs
+PKLR-48h,PKLR,1533,0.14969910007983314,Ridge | context + motifs
+RET,RET,1911,0.04204991173349109,Ridge | context + motifs
+SORT1,SORT1,1806,0.13360010772983957,Ridge | context + motifs
+SORT1-flip,SORT1,1884,0.13522411492131198,Ridge | context + motifs
+SORT1.2,SORT1,1918,0.12513435017965022,Ridge | context + motifs
+TCF7L2,TCF7L2,1801,0.05647726845549487,Ridge | context + motifs
+TERT-GAa,TERT,869,0.2824718388579782,Ridge | context + motifs
+TERT-GBM,TERT,878,0.31234803817272677,Ridge | context + motifs
+TERT-GSc,TERT,866,0.29570793185235456,Ridge | context + motifs
+TERT-HEK,TERT,865,0.1898520946155409,Ridge | context + motifs
+UC88,UC88,1840,0.12855464263937263,Ridge | context + motifs
+ZFAND3,ZFAND3,1893,0.03428730025599192,Ridge | context + motifs
+ZRSh-13,ZRS,1571,0.08600750517853852,Ridge | context + motifs
+ZRSh-13h2,ZRS,1572,0.052593298077130445,Ridge | context + motifs
+BCL11A,BCL11A,1985,0.04251953716842717,Gradient boosting | context + motifs
+F9,F9,952,0.11900758661629639,Gradient boosting | context + motifs
+FOXE1,FOXE1,1923,-0.0026582107838021506,Gradient boosting | context + motifs
+GP1BA,GP1BA,1239,0.07848916114812984,Gradient boosting | context + motifs
+HBB,HBB,596,0.3408673846929079,Gradient boosting | context + motifs
+HBG1,HBG1,888,0.25774808215398015,Gradient boosting | context + motifs
+HNF4A,HNF4A,931,0.1218698681991068,Gradient boosting | context + motifs
+IRF4,IRF4,1458,0.15515669161083218,Gradient boosting | context + motifs
+IRF6,IRF6,1739,0.11402460401696936,Gradient boosting | context + motifs
+LDLR,LDLR,1004,0.19600675881613644,Gradient boosting | context + motifs
+LDLR.2,LDLR,1024,0.22329732091767396,Gradient boosting | context + motifs
+MSMB,MSMB,1912,0.16544206972003198,Gradient boosting | context + motifs
+MYCrs11986220,MYCrs11986220,1554,0.00357265587084899,Gradient boosting | context + motifs
+MYCrs6983267,MYCrs6983267,1809,0.04104908261999677,Gradient boosting | context + motifs
+PKLR-24h,PKLR,1503,0.12531054911453687,Gradient boosting | context + motifs
+PKLR-48h,PKLR,1533,0.10267753907350874,Gradient boosting | context + motifs
+RET,RET,1911,0.008032222222732815,Gradient boosting | context + motifs
+SORT1,SORT1,1806,0.19095051216771738,Gradient boosting | context + motifs
+SORT1-flip,SORT1,1884,0.19151035540245803,Gradient boosting | context + motifs
+SORT1.2,SORT1,1918,0.18576749384009583,Gradient boosting | context + motifs
+TCF7L2,TCF7L2,1801,0.08636467339490043,Gradient boosting | context + motifs
+TERT-GAa,TERT,869,0.19399207420263695,Gradient boosting | context + motifs
+TERT-GBM,TERT,878,0.21915643341228885,Gradient boosting | context + motifs
+TERT-GSc,TERT,866,0.19675527042825927,Gradient boosting | context + motifs
+TERT-HEK,TERT,865,0.24070281312021,Gradient boosting | context + motifs
+UC88,UC88,1840,0.12182002331394327,Gradient boosting | context + motifs
+ZFAND3,ZFAND3,1893,0.13912959457355578,Gradient boosting | context + motifs
+ZRSh-13,ZRS,1571,0.07292001883815356,Gradient boosting | context + motifs
+ZRSh-13h2,ZRS,1572,0.05955295137036336,Gradient boosting | context + motifs

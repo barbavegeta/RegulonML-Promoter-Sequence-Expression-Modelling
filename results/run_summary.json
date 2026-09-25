@@ -1,0 +1,8 @@
+{
+  "variants": 41724,
+  "datasets": 29,
+  "loci": 21,
+  "min_barcodes": 10,
+  "cv": "leave-one-locus-out",
+  "seconds": 297
+}

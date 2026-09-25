@@ -1,18 +1,6 @@
 #!/usr/bin/env bash
+# Full RegulonML run: download the Kircher et al. 2019 MPRA data, build sequence and
+# JASPAR motif features, evaluate with leave-one-locus-out CV, and write figures.
 set -euo pipefail
-
-python src/download_kircher_mpra.py \
-  --output data/raw/kircher_elements.tsv.gz
-
-python src/prepare_kircher_mpra.py \
-  --input data/raw/kircher_elements.tsv.gz \
-  --output data/real/kircher_promoter_mpra_variants.csv \
-  --release GRCh38 \
-  --min-tags 10 \
-  --promoters-only
-
-python src/train_mpra_variant_model.py \
-  --input data/real/kircher_promoter_mpra_variants.csv \
-  --output results/real_mpra \
-  --target Value \
-  --group-col Element
+export PYTHONPATH="$(cd "$(dirname "$0")" && pwd)/src${PYTHONPATH:+:$PYTHONPATH}"
+python3 -m regulonml.pipeline --outdir results "$@"

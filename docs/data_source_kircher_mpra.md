@@ -18,10 +18,13 @@ It is real reporter-assay data and is much stronger than the original synthetic 
 
 ## Modelling target
 
-The model predicts:
+The target is the fitted MPRA variant effect (`Coefficient` in the raw file: log2 change in reporter
+activity caused by the variant). The DNA, RNA and barcode counts are the measurements that
+effect is estimated from, so they are used only for quality filtering (at least 10 barcodes)
+and never as model features.
 
-```text
-Value
-```
+## Loci
 
-This is the fitted MPRA variant-effect coefficient.
+The 29 datasets come from 21 genomic loci. Some loci were tested more than once (TERT in four
+cell lines, PKLR at two time points, LDLR and SORT1 in replicate or flipped constructs, ZRS in two
+versions). Train/test splits are made by locus so the same DNA never appears on both sides.

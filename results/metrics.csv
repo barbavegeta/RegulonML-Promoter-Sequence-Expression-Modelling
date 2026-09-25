@@ -1,0 +1,7 @@
+features,model,split,pooled_R2,median_element_spearman,pooled_AUROC_sig,pooled_AUPRC_sig
+-,Mean baseline,leave-one-locus-out,-0.005390378819277286,,0.5,0.17596587096155689
+context only,Ridge,leave-one-locus-out,-0.024022087868018405,0.0007677185341550245,0.5022046990087383,0.17740605571429457
+context only,Gradient boosting,leave-one-locus-out,-0.0747338555198096,0.06596622382869952,0.5813589822400307,0.21333087233515502
+context + motifs,Ridge,leave-one-locus-out,-0.02744945628691342,0.1428562726710975,0.5541681665387144,0.21712164300364964
+context + motifs,Gradient boosting,leave-one-locus-out,-0.05687746060637644,0.12531054911453687,0.6010106284035118,0.2386141590086319
+context + motifs,Gradient boosting,"random 5-fold (leaky, for comparison)",0.5070394178381386,0.30580342003472266,,
